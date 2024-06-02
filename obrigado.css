@@ -1,0 +1,74 @@
+.cabecalho logo {
+    padding: 15px;
+    margin: 180px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav#menu ul{
+    background-color: ffffff;
+    text-align: right;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30px;
+    list-style: none;
+    left: 1300px;
+    font-size: 15pt;
+    padding: 50px;
+    margin: 20px;
+    margin-top: 150px
+}
+
+nav#menu li {
+    border: outset rgb(255, 1, 1) ;
+    display: inline-flex;
+    border-radius: 15px;
+    background-color: ffffff;
+    margin: 15px;
+    padding: 15px;
+    transition: background-color 0.5s;
+}
+
+nav#menu li:hover {
+    background-color: rgb(146, 142, 142);
+} 
+
+header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 1em 0;
+    text-align: center;
+}
+
+
+footer {
+    background-color:rgb(146, 142, 142);
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.time {
+    display: inline-flex;
+    background-color: red;
+    padding: 15px;
+}
+
+section {
+    background: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -250px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+}

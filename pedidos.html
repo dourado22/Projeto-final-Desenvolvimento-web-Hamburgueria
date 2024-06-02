@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/d1eae9198d7a766247d7cf52ac43fb73-hamburgueria-com-logotipo-fast-food.webp" type="image/x-icon">
+    <link rel="stylesheet" href="pedidos.css">
+    <script src="index.js"></script>
+    <title>Pedidos</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="imagens/Logo Clara.png "logo" width="600px" height="600px">
+        </div>
+        
+        <h1>Selecione seu Hamburger</h1>
+        <nav id="menu">
+            <ul>
+                <li><strong><a href="index.html">Home</a></strong></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <form id="orderForm" onsubmit="enviarPedido(); return false;">
+
+            <!-- Produto 1 -->
+
+            <div class="product">
+                <a href="produto1.html">
+                    <img src="imagens/1.png" alt="Produto 1" width="300px">
+                </a>
+                <h2>Hamburguer Artesanal X-Picanha</h2>
+                <br>
+                <p>Apetitoso e estiloso, perfeito para todas as ocasiões.</p>
+                <br>
+                <p class="price">R$27,00</p>
+                <br>
+                <label>
+                    <input type="checkbox" name="product" value="Hamburguer Artesanal X-Picanha">
+                    Selecionar Produto
+                </label>
+                <br>
+                <label for="quantity1">Quantidade:</label>
+                <input type="number" id="quantity1" name="quantity1" value="0" min="0">
+            </div>
+            
+            <!-- Produto 2 -->
+
+            <div class="product">
+                <a href="produto2.html">
+                    <img src="imagens/2.png" alt="Produto 2" width="300px">
+                </a>
+                <h2>Hamburguer Artesanal X-Bacon</h2>
+                <br>
+                <p>Super hamburger em dobro, é tudo em dobro.</p>
+                <br>
+                <p class="price">R$25,00</p>
+                <br>
+                <label>
+                    <input type="checkbox" name="product" value="Hamburguer Artesanal X-Bacon">
+                    Selecionar Produto
+                </label>
+                <br>
+                <label for="quantity2">Quantidade:</label>
+                <input type="number" id="quantity2" name="quantity2" value="0" min="0">
+            </div>
+            <br>
+            
+            <!--produto 3-->
+            
+            <div class="product">
+                <a href="produto3.html">
+                    <img src="imagens/3.png" alt="Produto 3" width="300px">
+                </a>
+                <h2>Hamburguer Artesanal X-Salada</h2>
+                <br>
+                <p>Mega triplo com 3 hamburger suculentos na brasa.</p>
+                <br>
+                <p class="price">R$18,00</p>
+                <br>
+                <label>
+                    <input type="checkbox" name="product" value="Hamburguer Artesanal X-Salada">
+                    Selecionar Produto
+                </label>
+                <br>
+                <label for="quantity3">Quantidade:</label>
+                <input type="number" id="quantity3" name="quantity3" value="0" min="0">
+            </div>
+            <br>
+
+            <!--Produto 4 -->
+
+            <div class="product">
+                <a href="produto4.html">
+                    <img src="imagens/4.png" alt="Produto 4" width="300px">
+                </a>
+                <h2>Coxinha de Frango</h2>
+                <br>
+                <p>Cremosa e crocante de dar água na boca.</p>
+                <br>
+                <p class="price">R$6,00</p>
+                <br>
+                <label>
+                    <input type="checkbox" name="product" value="Coxinha de Frango">
+                    Selecionar Produto
+                </label>
+                <br>
+                <label for="quantity4">Quantidade:</label>
+                <input type="number" id="quantity4" name="quantity4" value="0" min="0">
+            </div>
+            <br>
+
+            <!--Produto 5-->
+            <div class="product">
+                <a href="produto5.html">
+                    <img src="imagens/5.png" alt="Produto 5" width="300px">
+                </a>
+                <h2>Combo 1</h2>
+                <br>
+                <p>O melhor combo para acompanhamento.</p>
+                <br>
+                <p class="price">R$49,90</p>
+                <br>
+                <label>
+                    <input type="checkbox" name="product" value="combo 1">
+                    Selecionar Produto
+                </label>
+                <br>
+                <label for="quantity5">Quantidade:</label>
+                <input type="number" id="quantity5" name="quantity5" value="0" min="0">
+            </div>
+            <br>
+        
+        <!-- produto 6-->
+
+        <div class="product">
+            <a href="produto6.html">
+                <img src="imagens/6.png" alt="Produto 6" width="300px">
+            </a>
+            <h2>Combo 2</h2>
+            <br>
+            <p>Um mega combo gigante para um lanche tamanho família.</p>
+            <br>
+            <p class="price">R$64,90</p>
+            <br>
+            <label>
+                <input type="checkbox" name="product" value="Combo 2">
+                Selecionar Produto
+            </label>
+            <br>
+            <label for="quantity6">Quantidade:</label>
+            <input type="number" id="quantity6" name="quantity6" value="0" min="0">
+        </div>
+        <br>
+
+        <!--produto 7-->
+
+        <div class="product">
+            <a href="produto7.html">
+                <img src="imagens/7.png" alt="Produto 7" width="300px">
+            </a>
+            <h2>Combo 3</h2>
+            <br>
+            <p>Um combo tradicional</p>
+            <br>
+            <p class="price">R$38,90</p>
+            <br>
+            <label>
+                <input type="checkbox" name="product" value="combo 3">
+                Selecionar Produto
+            </label>
+            <br>
+            <label for="quantity7">Quantidade:</label>
+            <input type="number" id="quantity7" name="quantity7" value="0" min="0">
+        </div>
+        <br>
+
+        <!--Produto 8-->
+        
+        <div class="product">
+            <a href="produto8.html">
+                <img src="imagens/8.png" alt="Produto 8" width="300px">
+            </a>
+            <h2>Combo 4</h2>
+            <br>
+            <p>Um combo rápido, que sua fome não pode esperar.</p>
+            <br>
+            <p class="price">R$33,90</p>
+            <br>
+            <label>
+                <input type="checkbox" name="product" value="Combo 4">
+                Selecionar Produto
+            </label>
+            <br>
+            <label for="quantity8">Quantidade:</label>
+            <input type="number" id="quantity8" name="quantity8" value="0" min="0">
+        </div>
+        <br>
+
+        <!--Produto 9-->
+
+        <div class="product">
+            <a href="produto9.html">
+                <img src="imagens/batata.png" alt="Produto 9" width="300px">
+            </a>
+            <h2>Batata Frita</h2>
+            <br>
+            <p>Uma porção tamanho família para seu apetite.</p>
+            <br>
+            <p class="price">R$19,90</p>
+            <br>
+            <label>
+                <input type="checkbox" name="product" value="Batata Frita">
+                Selecionar Produto
+            </label>
+            <br>
+            <label for="quantity9">Quantidade:</label>
+            <input type="number" id="quantity9" name="quantity9" value="0" min="0">
+        </div>
+        <br>
+
+        <!--Produto 10 -->
+
+        <div class="product">
+            <a href="produto10.html">
+                <img src="imagens/coca2L.png" alt="Produto 10" width="300px">
+            </a>
+            <h2>Refrigerante 2L</h2>
+            <br>
+            <p>Mate sua sede com uma coca cola gelada.</p>
+            <br>
+            <p class="price">R$12,90</p>
+            <br>
+            <label>
+                <input type="checkbox" name="product" value="Refrigerante 2L">
+                Selecionar Produto
+            </label>
+            <br>
+            <label for="quantity10">Quantidade:</label>
+            <input type="number" id="quantity10" name="quantity10" value="0" min="0">
+        </div>
+        <br><br><br>
+
+        <div class="payment-options">
+            <h3>Opções de Pagamento:</h3>
+            <label>
+                <input type="radio" name="payment" value="Pix"> Pix
+            </label>
+            <label>
+                <input type="radio" name="payment" value="Dinheiro"> Dinheiro
+            </label>
+            <label>
+                <input type="radio" name="payment" value="Cartão"> Cartão
+            </label>
+        </div>
+        <br><br><br>
+
+        <button type="submit">Finalizar Pedido</button>
+        </form>
+    </main>
+
+    <footer><strong> &copy;2024 Hamburgueria Delicious. Todos os direitos reservados.</strong></footer>
+</body>
+</html>

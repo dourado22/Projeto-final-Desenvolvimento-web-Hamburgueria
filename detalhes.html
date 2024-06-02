@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/d1eae9198d7a766247d7cf52ac43fb73-hamburgueria-com-logotipo-fast-food.webp" type="image/x-icon">
+    <link rel="stylesheet" href="detalhes.css">
+    <script src="index.js" defer></script>
+    <title>Detalhes do Pedido</title>
+</head>
+<body>
+    <header>
+        <figure class='logo'>
+            <img src="imagens/Logo Clara.png" alt="Logo" width="500px">
+        </figure>
+
+        <br><br><br>
+    
+        <nav id="menu">
+            <ul>
+                <li><strong><a href="index.html">Home</a></strong></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br><br><br><br><br><br>
+
+    <div class="senha">
+        <h1>Insira a senha do seu pedido</h1>
+        <input type="password" id="orderPassword" placeholder="Senha">
+        <button onclick="checkPassword()">Verificar</button>
+    </div>
+    <br>
+
+    <div class="container">
+        <h2>Detalhes do Pedido</h2>
+        <div id="numeroPedido"></div>
+        <div id="productList"></div>
+        <div id="totalPrice"></div>
+        <div id="paymentMethod"></div>
+        <div id="frete"></div>
+        <div id="countdown"></div>
+    </div>
+
+    <footer>
+        <strong> &copy;2024 Hamburgueria Delicious. Todos os direitos reservados.</strong>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.senha {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -250px;
+}
+
+.senha h1 {
+    margin-bottom: 10px;
+}
+
+.senha input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.senha button {
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.senha button:hover {
+    background-color: #4cae4c;
+}
+
+.container {
+    background: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 10px;
+}
+
+#productList {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#productList div {
+    margin-bottom: 10px;
+}
+
+#numeroPedido,#totalPrice,#paymentMethod,#frete {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color:rgb(146, 142, 142);
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    padding: 2px;
+    margin-top: 150px;
+}
+
+#countdown {
+    background-color: red;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu a {
+    text-decoration: none;
+}
+
+nav#menu ul{
+    background-color: f4f4f4;
+    text-align: right;
+    text-transform: uppercase;
+    position:absolute;
+    top: 20px;
+    list-style: none;
+    left: 1400px;
+    font-size: 15pt;
+    padding-top: 200px;
+}
+
+nav#menu li {
+    border: outset rgb(255, 0, 0) ;
+    color: #000000;
+    display: inline-flex;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+    transition: background-color 0.5s;
+}
+
+nav#menu li:hover {
+    background-color: rgb(152, 152, 152);
+}
+
